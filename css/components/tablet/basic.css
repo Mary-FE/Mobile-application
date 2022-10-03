@@ -1,0 +1,12 @@
+.basic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.basic .title {
+    font-size: 40px;
+}
+
+.basic .item {
+    text-align: right;
+}

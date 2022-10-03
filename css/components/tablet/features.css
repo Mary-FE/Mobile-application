@@ -1,0 +1,19 @@
+.features .title {
+    font-size: 30px;
+}
+
+.features .subtitle {
+    font-size: 35px;
+}
+
+.features .type {
+    grid-template-columns: 1fr 1fr;
+}
+
+.features .example {
+    font-size: 30px;
+}
+
+.features .text {
+    font-size: 23px;
+}

@@ -1,0 +1,9 @@
+.footer {
+    background-color: var(--application-color5);
+    color: var(--application-color1);
+}
+
+.footer .text {
+    font-size: 12px;
+    text-align: center;
+}

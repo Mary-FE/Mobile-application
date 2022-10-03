@@ -1,0 +1,15 @@
+.goal {
+    padding: 40px 0;
+    background-color: var(--application-color4);
+    color: var(--application-color1);
+}
+
+.goal .title {
+    max-width: 120px;
+    margin-bottom: 15px;
+    font: 700 50px/1.1 var(--font-family__title);
+}
+
+.goal .text {
+    font-size: 12px;
+}

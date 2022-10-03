@@ -1,0 +1,29 @@
+:root {
+    /* Color */
+    --application-color1: #fff;
+    --application-color2: #d9dbdd;
+    --aplication-color-light: #ececec;
+    --application-color3: #a280e2;
+    --bgr-block: rgb(167 122 253);
+    --application-color4: #803bec;
+    --application-color5: #333;
+    --application-color6: #111;
+
+    /* Font */
+    --font-family__title: 'Poppins', sans-serif;
+    --font-family__text:   'Open Sans', sans-serif;
+    --font-family__icons: 'Mobile-application Icons';
+    
+    /* Button */
+    --base-animation: all .35s ease;
+
+    /* Icons */
+    --icon-menu: '\e900';
+    --icon-direction: '\e901';
+    --icon-facebook: '\e902';
+    --icon-twitter: '\e903';
+    --icon-instagram: '\e904';
+    --icon-strategy: '\e905';
+    --icon-concept: '\e906';
+    --icon-development: '\e907';
+}

@@ -1,0 +1,7 @@
+.show .pictures {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.show .item {
+    max-width: 40%;
+}

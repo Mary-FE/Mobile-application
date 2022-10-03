@@ -1,0 +1,12 @@
+.contact .form {
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact input {
+    margin-bottom: 20px;
+}
+
+.contact textarea,
+.contact .button {
+    grid-column: 1/3;
+}

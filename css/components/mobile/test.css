@@ -1,0 +1,24 @@
+.test .clicks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.test .title {
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.test .title + label {
+    padding: 10px 25px;
+    font: 500 18px var(--font-family__text);
+    cursor: pointer;
+    transition: var(--base-animation);
+}
+
+.test .title:checked + label {
+    background-color: var(--application-color4);
+    color: var(--application-color1);
+}
+
+

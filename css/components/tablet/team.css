@@ -1,0 +1,23 @@
+.team .profession {
+    font-size: 20px;
+}
+
+/* Type ================================ */
+.team .type {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.team .type::before {
+    height: 50px;
+    top: 75px;
+}
+
+.team .type .item:nth-child(2) {
+    margin-top: 30px;
+}
+
+.team .type .item:nth-child(3) {
+    margin-top: 60px;
+}

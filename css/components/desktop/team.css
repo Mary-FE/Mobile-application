@@ -1,0 +1,17 @@
+.team .title {
+    font-size: 60px;
+}
+
+.team .text {
+    max-width: 550px;
+    font-size: 20px;
+}
+
+.team .type::before {
+    height: 90px;
+    top: 50px;
+}
+
+.team .name {
+    font-size: 30px;
+}

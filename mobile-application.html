@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet preload" href="css/font.css" />
+    <link rel="stylesheet preload" href="css/variable.css" />
+    <link rel="stylesheet preload" href="css/common.css" />
+    <link rel="stylesheet preload" href="css/lib/my_reset.css" />
+    <link rel="stylesheet" href="css/breakpoint/mobile.css" />
+    <link rel="stylesheet" href="css/breakpoint/tablet.css" media="screen and (min-width: 768px)"/>
+    <link rel="stylesheet" href="css/breakpoint/desktop.css" media="screen and (min-width: 1024px)" />
+    <title>Mobile application</title>
+</head>
+<body>
+    <!-- This is navigation -->
+    <header class="navigation">
+        <div class="box">
+            <a href="#">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <div class="nav-wrapper">
+                <input type="checkbox" id="menu" name="menu">
+                <label for="menu" class="icon menu"></label>
+                <nav>
+                    <a href="">Page 1</a>
+                    <a href="">Page 2</a>
+                    <a href="">Page 3</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- This is basic -->
+    <section class="basic">
+        <div class="box">
+            <div class="info">
+                <h2 class="title">Mobile application development</h2>
+                <div class="line"></div>
+                <div class="item">
+                    <a href="#development" class="link option">development</a>
+                    <a href="#trends" class="link option">tech trends</a>
+                    <a href="#news" class="link option">latest news</a>
+                    <a href="#about" class="link option">about us</a>
+                </div>
+            </div>
+        </div>
+            <div>
+                <picture>
+                    <source srcset="img/mockup-mobile.jpg" media="(max-width: 767px)" alt="phone display" />
+                    <img src="img/mockup.jpg" alt="phone display" loading="lazy" />
+                </picture>
+            </div>
+    </section>
+    
+    <!-- This is review -->
+    <section class="review">
+        <div class="box">
+            <h2 class="item" id="trends">Make things you love.</h2>
+            <div class="second">
+                <div class="title">Start running today</div>
+                <button class="button purple">Download now</button>
+                <div class="date">Free 30-day trial, macOS 10.11+</div>
+            </div>
+            <img src="img/workout.jpg" alt="application Your workout">
+        </div>
+    </section>
+
+    <!-- This is goal -->
+    <section class="goal">
+        <div class="box">
+            <div class="title">We build digital.</div>
+            <div class="text">
+                Sample text. Click to select the text box. Click again or double click
+                to start editing the text.
+            </div>
+        </div>
+    </section>
+
+    <!-- This is show -->
+    <section class="show">
+        <div class="box">
+            <div class="pictures">
+                <img src="img/hands-with-telephone.jpg" alt="hands with telephon" loading="lazy" />
+                <img src="img/music.jpg" alt="hands-with-telephone" loading="lazy" />
+                <img src="img/phones.jpg" alt="phone 12 pro max" loading="lazy" />
+                <img src="img/burger.jpg" alt="burger" loading="lazy" />
+                <img src="img/display.jpg" alt="display" loading="lazy" />
+                <img src="img/time.jpg" alt="time on the phone" loading="lazy" />
+            </div>
+            <div class="item">
+                <div>
+                    <div class="title" id="development">Mobile App Development</div>
+                    <div class="text">
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                    <button class="button purple">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- This is feedback -->
+    <section class="feedback">
+        <div class="box">
+
+                <input type="radio" id="radio-feedback1" name="feed" data-slider="1" checked>
+                <input type="radio" id="radio-feedback2" data-slider="2" name="feed">
+
+                <label for="radio-feedback1" class="icon direction direction-first"></label>
+                <label for="radio-feedback2" class="icon direction direction-second"></label>
+
+
+                <div class="content" data-slider="1">
+                    <div class="text">
+                        "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur, 
+                        mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id metus."
+                    </div>
+                    <!-- <span class="icon direction direction-first"></span> -->
+                    <img src="img/mary.jpg" alt="Mary's face" />
+                    <!-- <span class="icon direction direction-second"></span> -->
+                    <div class="name">Mary Smith 1</div>
+                </div>
+
+                <div class="content"  data-slider="2">
+                    <div class="text">
+                        "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur, 
+                        mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id metus."
+                    </div>
+                    <!-- <span class="icon direction direction-first"></span> -->
+                    <img src="img/mary.jpg" alt="Mary's face" />
+                    <!-- <span class="icon direction direction-second"></span> -->
+                    <div class="name">Mary Smith 2</div>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- This is team -->
+    <section class="team">
+        <div class="box">
+            <div class="title" id="about">Our Team</div>
+            <div class="text">
+                Sample text. Click to select the text box. Click again or double click to start editing the text.
+            </div>
+            <div class="type">
+                <div class="item">
+                    <img src="img/alex.jpg" alt="Alex in a white T-shirt" />
+                    <div class="name">Alex Grinfield</div>
+                    <div class="profession">programming guru</div>
+                    <div class="network">
+                        <a href="#">
+                            <span class="icon facebook social"></span>
+                        </a>
+                        <a href="#">
+                            <span class="icon twitter social"></span>
+                        </a>
+                        <a href="#">
+                            <span class="icon instagram social"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/ann.jpg" alt="Ann in a white blouse" />
+                    <div class="name">Ann Richmond</div>
+                    <div class="profession">creative leader</div>
+                    <div class="network">
+                        <a href="#">
+                            <span class="icon facebook social"></span>
+                        </a>
+                        <a href="#">
+                            <span class="icon twitter social"></span>
+                        </a>
+                        <a href="#">
+                            <span class="icon instagram social"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/jeff.jpg" alt="Jeffrey in a white T-shirt" />
+                    <div class="name">Jeffrey Brown</div>
+                    <div class="profession">manager</div>
+                    <div class="network">
+                        <a href="#">
+                            <span class="icon facebook social"></span>
+                        </a>
+                        <a href="#">
+                            <span class="icon twitter social"></span>
+                        </a>
+                        <a href="#">
+                            <span class="icon instagram social"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- This is features -->
+    <section class="features">
+        <div class="box">
+            <div class="title">features</div>
+            <div class="subtitle" id="news">Using design to improve product development</div>
+            <div class="type">
+                <div class="item">
+                    <div class="icon strategy"></div>
+                    <div class="example">Strategy</div>
+                    <div class="text">
+                        Strategic planning is an organization’s process for defining their strategy
+                        so that they can accomplish specific goals and objectives
+                    </div>
+                    <a href="#" class="more">More</a>
+                </div>
+                <div class="item">
+                    <div class="icon concept"></div>
+                    <div class="example">Concept</div>
+                    <div class="text">
+                        A business concept is a statement that describes the reach and reason of existence
+                        of a given business idea. In other words, it sums up
+                    </div>
+                    <a href="#" class="more">More</a>
+                </div>
+                <div class="item">
+                    <div class="icon development"></div>
+                    <div class="example">Development</div>
+                    <div class="text">
+                        Develop an on-demand app for your delivery business to reach your targeted
+                        customers without any interruption. 
+                    </div>
+                    <a href="#" class="more">More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- This is contact -->
+    <section class="contact">
+        <div class="box">
+            <div class="title">Get in touch</div>
+            <form class="form" action="#" method="get">
+                <input class="name" type="text" required minlength="3" placeholder="Enter your name" />
+                <input class="email" type="email" required minlength="10" placeholder="Enter a valid your email address" />
+                <textarea name="message" placeholder="Enter your message"></textarea>
+                <button type="submit" class="button submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+    <section class="check">
+        <div>
+            <input type="checkbox" id="close">
+            <label for="close"></label>
+        </div>
+    </section>
+
+    <!-- This is footer -->
+    <footer class="footer">
+        <div class="box">
+            <div class="text">
+                Sample text. Click to select the text box. Click again or double click to start editing the text.
+            </div>
+        </div>
+    </footer>
+
+    <!-- This is test -->
+    <section class="test">
+        <div class="box">
+            <div class="clicks">
+                <input type="radio" id="click1" name="name" class="title" checked>
+                <input type="radio" id="click3" name="name" class="title" checked>
+                <input type="radio" id="click2" name="name" class="title" checked>
+
+                <label for="click2" class="label">Text 1</label>
+                <label for="click3" class="label">Text 2</label>
+                <label for="click1" class="label">Text 3</label>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iste non cupiditate
+                        dolor eveniet qui nesciunt tempora. Quisquam laudantium, repellat tenetur, aliquid
+                        sed at, vitae excepturi fugiat non rerum perferendis.
+                    </p>
+                </div>
+
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iste non cupiditate
+                        dolor eveniet qui nesciunt tempora. Quisquam laudantium, repellat tenetur, aliquid
+                        sed at, vitae excepturi fugiat non rerum perferendis.
+                    </p>
+                </div>
+
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iste non cupiditate
+                        dolor eveniet qui nesciunt tempora. Quisquam laudantium, repellat tenetur, aliquid
+                        sed at, vitae excepturi fugiat non rerum perferendis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

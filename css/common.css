@@ -1,0 +1,143 @@
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    color: var(--application-color6);
+    font-family: var(--font-family__text);
+}
+
+/* Icons */
+.menu:before {content: var(--icon-menu)}
+.direction:before {content: var(--icon-direction)}
+.facebook:before {content: var(--icon-facebook)}
+.twitter:before {content: var(--icon-twitter)}
+.instagram:before {content: var(--icon-instagram)}
+.strategy:before {content: var(--icon-strategy)}
+.concept:before {content: var(--icon-concept)}
+.development:before {content: var(--icon-development)}
+
+/* Button */
+.button {
+    padding: 10px 30px;
+
+    background-color: var(--application-color4);
+    color: var(--application-color1);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: var(--base-animation);
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--application-color3);
+}
+
+.purple {
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.submit {
+    width: 130px;
+    margin: 0 auto;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+/* Icons */
+.icon {
+    font: 500 64px var(--font-family__icons);
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--base-animation);
+}
+
+.menu {
+    padding-top: 5px;
+    font-size: 24px;
+    color: var(--application-color5);
+}
+
+.menu:hover {
+    color: var(--application-color2);
+}
+
+.direction:before {
+    content: var(--icon-direction);
+    
+    padding: 10px;
+    font: 22px var(--font-family__icons);
+    color: var(--application-color1);
+    background-color: var(--application-color4);
+    border-radius: 50%;
+
+    transition: var(--base-animation);
+}
+
+.direction:hover::before {
+    color: var(--application-color6);
+    background-color: var(--application-color1);
+}
+
+.social {
+    font-size: 25px;
+    color: var(--application-color4);
+}
+
+.social:hover {
+    color: var(--application-color1);
+}
+
+/* Links */
+.link {
+    text-decoration: none;
+    color: var(--application-color6);
+}
+
+.link:hover {
+    color: var(--application-color4);
+}
+
+.option {
+    display: block;
+    margin-bottom: 10px;
+    font: 700 16px var(--font-family__text);
+    text-transform: uppercase;
+}
+
+/* Others */
+.line {
+    margin-bottom: 40px;
+    border-bottom: 10px solid var(--application-color4);
+}
+
+/* Titles*/
+h1 {
+    font: 600 50px var(--font-family__title);
+}
+
+h2 {
+    font: 700 32px/1 var(--font-family__title);
+}
+
+h3 {
+    font: 700 22px var(--font-family__title);
+}
+
+h4 {
+    font: 400 20px var(--font-family__title);
+}
+
+.box {
+    max-width: 1200px; /* 1200px go to some variable */
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+a {
+    text-decoration: none;
+}

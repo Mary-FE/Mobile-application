@@ -1,0 +1,7 @@
+.features .subtitle {
+    font: 700 56px/1.2 var(--font-family__title);
+}
+
+.features .type {
+    grid-template-columns: 1fr 1fr 1fr;
+}

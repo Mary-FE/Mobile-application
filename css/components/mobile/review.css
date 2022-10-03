@@ -1,0 +1,34 @@
+.review {
+    margin: 20px 0;
+}
+
+.review img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review .item {
+    padding: 30px 15px;
+    margin-bottom: 20px;
+    
+    line-height: 1.2;
+    background-color: var(--application-color4);
+    color: var(--application-color1);
+}
+
+.review .second {
+    padding: 30px 15px;
+    margin-bottom: 20px;
+    background-color: var(--application-color2);
+}
+
+.review .title {
+    margin-bottom: 20px;
+    font: 700 28px/1.3 var(--font-family__title);
+    letter-spacing: 1.1px;
+}
+
+.review .date {
+    user-select: none;
+}

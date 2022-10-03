@@ -1,0 +1,8 @@
+.check input[type="checkbox"]:checked ~ label::before {
+    content: 'open';
+    color: green;
+}
+
+.check input[type="checkbox"] ~ label::before {
+    content: 'close';
+}

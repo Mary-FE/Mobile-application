@@ -1,0 +1,60 @@
+.show {
+    padding: 40px 0;
+    background-color: var(--application-color6);
+}
+
+.show .box {
+    position: relative;
+}
+
+.show .box::before {
+    content: '';
+
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    right: 60px;
+    bottom: 0px;
+
+    background-color: var(--application-color4);
+}
+
+.show img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.show img:hover {
+    filter: brightness(.8);
+}
+
+.show .pictures,
+.show .item {
+    position: relative;
+}
+
+.show .pictures {
+    display: grid;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Item */
+.show .item {
+    padding: 25px;
+    background-color: var(--application-color1);
+}
+
+.show .title {
+    margin-bottom: 20px;
+    font: 700 28px/1 var(--font-family__title);
+}
+
+.show .text {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
